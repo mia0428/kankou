@@ -1,0 +1,850 @@
+<!DOCTYPE html><html amp lang="ja">
+
+<head>
+
+<meta http-equiv="content-type" charset="Shift_jis">
+
+<title>観光スポット</title>
+
+</head>
+
+<body background="img/turu01_105.gif">
+
+<table>
+
+<tr>
+
+<td align="left">
+
+<a href="about.html" style="text-decoration:none">
+
+<img src="img/site_logo.png"
+
+ with="210" height="88" alt="Company Logo">
+
+</a>
+
+<span style="margin-right:20em;"></span>
+
+<td align="right">
+
+<!-- Google  -->
+
+<form method=get action="http://www.google.co.jp/search">
+
+<td>
+
+<a href="http://www.google.co.jp/">
+
+<img src="http://www.google.com/logos/Logo_40wht.gif" border="0" alt="Google" align="absmiddle"></a>
+
+<input type=text name=q size=31 maxlength=255 value="">
+
+<input type=hidden name=ie value=Shift_JIS>
+
+<input type=hidden name=oe value=Shift_JIS>
+
+<input type=hidden name=hl value="ja">
+
+<input type=submit name=btnG value="Google 検索">
+
+</td></tr></table>
+
+</form>
+
+<!-- Google -->
+
+</table>
+
+
+<br>
+
+<ul class="globalNav">
+
+    <li class="active">
+
+        <a href="kankou.html">
+
+            <strong>観光スポット</strong>
+
+            <span>Tourist attractions</span>
+
+        </a>
+
+    </li>
+
+    <li>
+
+        <a href="model.html">
+
+            <strong>目的別モデルコース</strong>
+
+            <span>Model Course</span>
+
+        </a>
+
+    </li>
+
+    <li>
+
+        <a href="content.html">
+
+            <strong>コンテンツ</strong>
+
+            <span>content</span>
+
+        </a>
+
+    </li>
+
+    <li>
+
+        <a href="gourmet.html">
+
+            <strong>グルメ</strong>
+
+            <span>Gourmet</span>
+
+        </a>
+
+    </li>
+
+    <li>
+
+        <a href="hot.html">
+
+            <strong>温泉</strong>
+
+            <span>Hot spring</span>
+
+        </a>
+
+    </li>
+
+　　<li>
+
+        <a href="tourism.html">
+
+            <strong>周辺観光</strong>
+
+            <span>Surrounding tourism</span>
+
+        </a>
+
+    </li>
+
+</ul>
+
+
+<head>
+<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+
+
+
+<head>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+<script type="text/javascript">
+
+        $(document).ready(function(){
+
+            $('.slider').bxSlider({
+
+                auto: true,
+
+                pause: 5000,
+
+            });
+
+        });
+
+</script>
+
+</head>
+
+<div class="box1">
+
+<div class="sliderBox">
+
+  <ul>
+
+    <li><a href="#"><img src="img/P_20180823_102150.jpg" width="250px" height="165px"></a></li>
+
+    <li><a href="#"><img src="img/P_20180830_174429.jpg" width="250px" height="165px"></a></li>
+
+    <li><a href="#"><img src="img/P1000583.jpg" width="250px" height="165px"></a></li>
+
+    <li><a href="#"><img src="img/P1000631.jpg" width="250px" height="165px"></a></li>
+
+    <li><a href="#"><img src="img/P1000691.jpg" width="250px" height="165px"></a></li>
+
+    <li><a href="#"><img src="img/P1000709.jpg" width="250px" height="165px"></a></li>
+
+    <li><a href="#"><img src="img/P1000728.jpg" width="250px" height="165px"></a></li>
+
+    <li><a href="#"><img src="img/P1000660.jpg" width="250px" height="165px"></a></li>
+
+    <li><a href="#"><img src="img/P1000759.jpg" width="250px" height="165px"></a></li>
+
+    <li><a href="#"><img src="img/P1000699.jpg" width="250px" height="165px"></a></li>
+
+    <li><a href="#"><img src="img/P_20180830_174429.jpg" width="250px" height="165px"></a></li>
+
+    <li><a href="#"><img src="img/P1000583.jpg" width="250px" height="165px"></a></li>
+
+    <li><a href="#"><img src="img/P1000631.jpg" width="250px" height="165px"></a></li>
+
+    <li><a href="#"><img src="img/P1000691.jpg" width="250px" height="165px"></a></li>
+
+  </ul>
+
+</div>
+
+</div>
+
+<style>
+
+*{margin:0;padding: 0;}
+
+/*sliderのアニメーションを指定*/
+
+/*アニメーションの開始位置を指定*/
+
+@keyframes slider{
+
+  0%{
+
+    top:0px;
+
+    left:0px;
+
+  }
+
+/*アニメーションの終了位置を指定*/
+
+/*画像10枚分のwidthをスライドさせ、開始の画像が4枚表示された時にリピート開始*/
+
+  100%{
+
+    top:0px;
+
+    left:-2500px;
+
+  }
+
+}
+
+.sliderBox{
+
+/*スライダーの枠を設定する*/
+
+/*幅を画像4枚分のwidthに指定することでループする際にコマ切れをなくす(変なところでループする)*/
+
+  width:100%;
+
+/*表示したい画像の高さ*/
+
+  height:165px;
+
+  border:1px solid #000;
+
+/*ボックスからはみ出た画像は表示されない*/
+
+  overflow:hidden;
+
+  margin-top: 20px;
+
+/*中央寄せ*/
+
+  /*left: 50%;
+
+  margin-left: -500px;*/
+
+/*位置指定*/
+
+  position: relative;
+
+}
+
+.sliderBox ul{
+
+/*画像13枚分の長さ*/
+
+  width: 3500px;
+
+  height: 165px;
+
+  list-style-type: none;
+
+/*ボックスを親に設定した位置にするため(要素の位置を動かすためにpositionを設定＝スライドさせるため)*/
+
+  position: absolute;
+
+  animation-name: slider;
+
+/*再生秒数を指定(スライドする速さに影響)*/
+
+  animation-duration: 35s;
+
+/*無限ループ再生*/
+
+  animation-iteration-count: infinite;
+
+/*速度を均一にする*/
+
+  animation-timing-function: linear;
+
+}
+
+/*float:leftで並んだ13枚の画像幅は250px*13=3500px*/
+
+.sliderBox ul li{
+
+  float: left;
+
+}
+
+</style>
+
+<div class="box1">
+
+<div class="kakomi-te1"><p class="photo"><a href="https://www.matsue-castle.jp/"><img src="img/s_833.jpg" alt="松江城"></a></p><p class="object"><div class="block"><font size="6">松江城</font></div>
+<style>
+.block {
+    position: relative;
+    padding: 2px;
+    color: #fff;
+    background: #d2b48c;
+    overflow: hidden;
+}
+ 
+.block:before {
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-width: 16px 16px 0 0;
+    border-style: solid;
+    border-color: #fff;
+    border-top-color: #998366;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.4);
+}
+</style>
+
+<br>松江城は、現在の島根県松江市殿町に築かれた江戸時代の日本の城。別名・千鳥城。現存天守は国宝、城跡は国の史跡に指定されています。この他に日本さくら名所100選や都市景観100選に選ばれています。天守が国宝指定された5城のうちの一つです。<br>
+
+
+<div class="sample-box-1">
+
+<a href="https://www.booking.com/landmark/jp/matsue-castle.ja.html?aid=318615;label=New_Japanese_JA_JP_27025410865-vxwbPChyZJuOOxPKKXgzlwS102014251945:pl:ta:p1:p2:ac:ap1t1:neg:fi2658673290:tidsa-301303784602:lp1009618:li:dec:dm;ws=&gclid=CjwKCAjw2rjcBRBuEiwAheKeL5bLThYBcsxIJRlW_d7eUrsh52PdJRXg38NwIyP2twsbM0_R2kRSgxoCldcQAvD_BwE" style="text-decoration:none">ホテル</a><br>
+<a href="https://retty.me/area/PRE32/ARE151/SUB15101/LND7759/PUR1/" style="text-decoration:none">食事</a><br>
+<a href="https://www.jalan.net/kankou/spt_32201af2120008910/spot/" style="text-decoration:none">観光</a><br>
+<a href="https://www.google.com/maps/place/%E6%9D%BE%E6%B1%9F%E5%9F%8E/@35.4751378,133.0484896,17z/data=!3m1!4b1!4m5!3m4!1s0x355705052603bbf5:0x14102c41ce9afb3d!8m2!3d35.4751335!4d133.0506783" style="text-decoration:none">地図</a><br>
+<br />
+
+<br />
+
+</p></div>
+
+
+</div>
+
+
+</div>
+
+<style>
+
+.sample-box-1{
+   background-color: #fbeefc;
+   border-left: 8px solid #6A4028;
+   color: #985F2A;
+   margin: 0em 20em 0em 27em;
+   padding: 2em 1em 0em 1em;
+}
+
+
+
+.photo{
+   text-align: left;
+   float: left;
+}
+
+.box1{
+
+ margin: 50px;
+ 
+}
+
+.kakomi-te1 {
+
+ margin: 2em auto; 
+
+ padding: 1em 2em 1em 2em;
+
+ width: 90%; /*幅の調節*/
+
+ color: #724832; /* 文字色 */
+
+ background-color: #fff; /* 背景色 */
+
+ border: 4px solid #AB3B3A; /*線の太さ・色*/
+
+ border-radius: 3em .8em 3em .7em/.9em 2em .8em 3em;
+
+}
+
+</style>
+
+<div class="box2">
+
+<div class="kakomi-te2"><p class="photo"><a href="http://www.izumooyashiro.or.jp/"><img src="img/C2ADCEA9C8FEBDD1B4DBA1A1BDD0B1C0C2E7BCD220080.jpg" alt="出雲大社" width="400" heigh="300"></a></p><p class="object"><div class="block"><font size="6">出雲大社</font></div>
+
+<style>
+.block {
+    position: relative;
+    padding: 2px;
+    color: #fff;
+    background: #d2b48c;
+    overflow: hidden;
+}
+ 
+.block:before {
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-width: 16px 16px 0 0;
+    border-style: solid;
+    border-color: #fff;
+    border-top-color: #998366;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.4);
+}
+</style>
+<br>縁結びの神・福の神として名高い出雲大社。御祭神は大国主の大神で、広く「だいこくさま」として慕われ、日本全国でお示しになられた様々な御神徳は数多くの御神名によって称えられています。
+
+<div class="sample-box-2">
+
+<a href="https://www.booking.com/landmark/jp/izumo-taisha-grand-shrine.ja.html?aid=355715;label=izumo-taisha-grand-shrine-cmWv5iLvDg2Nexbq2Lnf8wS68100660732:pl:ta:p1:p2:ac:ap1t1:neg:fi:tiaud-146342138710:kwd-71779519812:lp1009618:li:dec:dm;ws=&gclid=CjwKCAjw2rjcBRBuEiwAheKeL02xAqVCg3Sd3QOx-bf2NMSnpp9O42HD51bJfcRwliGSvZ9esTOw4xoCrr4QAvD_BwE" style="text-decoration:none">ホテル</a><br>
+<a href="https://icotto.jp/presses/2856" style="text-decoration:none" style="text-decoration:none">食事</a><br>
+<a href="https://www.tripadvisor.jp/AttractionsNear-g1023583-d1163012-Izumo_Taisha_Shrine-Izumo_Shimane_Prefecture_Chugoku.html" style="text-decoration:none">観光</a><br>
+<a href="https://www.google.com/maps/place/%E5%87%BA%E9%9B%B2%E5%A4%A7%E7%A4%BE/@35.402035,132.685456,15z/data=!4m5!3m4!1s0x0:0x706a6aaefcba84ef!8m2!3d35.402035!4d132.685456" style="text-decoration:none">地図</a><br>
+<br />
+
+</p></div>
+
+</div>
+
+<style>
+.sample-box-2{
+   background-color: #fbeefc;
+   border-left: 8px solid #6A4028;
+   color: #985F2A;
+   margin: 0em 20em 0em 27em;
+   padding: 1em 1em 0em 1em;
+}
+
+
+
+.photo{
+   text-align: left;
+   float: left;
+}
+
+.box2{
+
+ margin: 50px;
+ 
+}
+
+.kakomi-te2 {
+
+ margin: 2em auto; 
+
+ padding: 1em 2em 1em 2em;
+
+ width: 90%; /*幅の調節*/
+
+ color: #724832; /* 文字色 */
+
+ background-color: #fff; /* 背景色 */
+
+ border: 4px solid #AB3B3A; /*線の太さ・色*/
+
+ border-radius: 3em .8em 3em .7em/.9em 2em .8em 3em;
+
+}
+
+</style>
+
+<div class="box3">
+
+<div class="kakomi-te3"><p class="photo"><a href="http://www.kumanotaisha.or.jp/"><img src="img/thYVD13Z1W.jpg" alt="熊野大社" width="400" heigh="300"></a></p><p class="object"><div class="block"><font size="6">熊野大社</font></div>
+
+<style>
+.block {
+    position: relative;
+    padding: 2px;
+    color: #fff;
+    background: #d2b48c;
+    overflow: hidden;
+}
+ 
+.block:before {
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-width: 16px 16px 0 0;
+    border-style: solid;
+    border-color: #fff;
+    border-top-color: #998366;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.4);
+}
+</style>
+
+<br>熊野大社は、出雲大社と共に出雲国一宮として古くから信仰を集めている神社。日の発祥の神社として「日本火出初之社（ひのもとひでぞめのやしろ）」とも呼ばれ、その歴史は古く、創建は神代といわれています。<br>
+
+<div class="sample-box-3">
+<a href="https://www.booking.com/landmark/jp/kumano-hongu-taisha.ja.html?aid=318615;label=New_Japanese_JA_JP_27025410865-vxwbPChyZJuOOxPKKXgzlwS102014251945:pl:ta:p1:p2:ac:ap1t1:neg:fi2656408063:tiaud-146342138710:dsa-301303784602:lp1009618:li:dec:dm;ws=&gclid=CjwKCAjw2rjcBRBuEiwAheKeLzZikEK-VftD36qBOhBuXIrUskiyN9oHbujk_srYhBYNV81w0_ngdRoCXJ8QAvD_BwE" style="text-decoration:none">ホテル</a><br>
+<a href="https://www.tripadvisor.jp/RestaurantsNear-g298136-d1373330-Kumano_Taisha_Shrine-Matsue_Shimane_Prefecture_Chugoku.html" style="text-decoration:none" style="text-decoration:none">食事</a><br>
+<a href="https://www.tripadvisor.jp/AttractionsNear-g1023681-d1397217-Kumano_Taisha_Shrine-Nanyo_Yamagata_Prefecture_Tohoku.html" style="text-decoration:none">観光</a><br>
+<a href="https://www.google.com/maps/d/viewer?ll=33.776864000000025%2C135.700378&spn=0.913188%2C1.095886&hl=ja&t=m&msa=0&z=9&source=embed&ie=UTF8&mid=1zxg-zCrNYpkb_0FbsOvwYrV4Y0Y" style="text-decoration:none">地図</a><br>
+<br />
+
+</p></div>
+
+</div>
+
+</div>
+
+<style>
+.sample-box-3{
+   background-color: #fbeefc;
+   border-left: 8px solid #6A4028;
+   color: #985F2A;
+   margin: 0em 20em 0em 27em;
+   padding: 1em 1em 0em 1em;
+}
+
+.photo{
+   text-align: left;
+   float: left;
+}
+
+.box3{
+
+ margin: 50px;
+ 
+}
+
+.kakomi-te3 {
+
+ margin: 2em auto; 
+
+ padding: 1em 7em 1em 3em;
+
+ width: 90%; /*幅の調節*/
+
+ color: #724832; /* 文字色 */
+
+ background-color: #fff; /* 背景色 */
+
+ border: 4px solid #AB3B3A; /*線の太さ・色*/
+
+ border-radius: 3em .8em 3em .7em/.9em 2em .8em 3em;
+
+}
+
+</style>
+
+<div class="box4">
+
+<div class="kakomi-te4"><p class="photo"><a href="https://yaegakijinja.or.jp/"><img src="img/_MG_7214_R.jpg" alt="八重垣神社" width="400" heigh="300"></a></p><p class="object"><div class="block"><font size="6">八重垣神社</font></div>
+
+<style>
+.block {
+    position: relative;
+    padding: 2px;
+    color: #fff;
+    background: #d2b48c;
+    overflow: hidden;
+}
+ 
+.block:before {
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-width: 16px 16px 0 0;
+    border-style: solid;
+    border-color: #fff;
+    border-top-color: #998366;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.4);
+}
+</style>
+
+<br>「早く出雲の八重垣様に、縁の結びが願いたい」という出雲の古い民謡の一節からもわかるとおり、八重垣神社は出雲の縁結びの大神として知られています。鏡の池では、縁結び、心願成就占いの池として占い用紙に硬貨を乗せて浮かべ、縁の遅早を占う多くの方の姿が毎日見受けられます。見どころは、連理玉椿、板絵著色神像
+、奥の院佐久佐女の森内の鏡の池での縁占いなどです。<br>
+
+<div class="sample-box-4">
+<a href="https://www.tripadvisor.jp/HotelsNear-g298136-d1310390-Yaegaki_Shrine-Matsue_Shimane_Prefecture_Chugoku.html" style="text-decoration:none">ホテル</a><br>
+<a href="https://retty.me/area/PRE32/ARE151/SUB15101/LND25405/PUR1/"style="text-decoration:none" style="text-decoration:none">食事</a><br>
+<a href="https://www.tripadvisor.jp/AttractionsNear-g298136-d1310390-Yaegaki_Shrine-Matsue_Shimane_Prefecture_Chugoku.html" style="text-decoration:none">観光</a><br>
+<a href="https://www.google.com/maps/place/%E5%85%AB%E9%87%8D%E5%9E%A3%E7%A5%9E%E7%A4%BE/@35.4290422,133.07358,15z/data=!4m5!3m4!1s0x0:0x4d8be0ec5274e27d!8m2!3d35.4290422!4d133.07358" style="text-decoration:none">地図</a><br>
+<br />
+
+</p></div>
+</div>
+
+</div>
+
+<style>
+.sample-box-4{
+   background-color: #fbeefc;
+   border-left: 8px solid #6A4028;
+   color: #985F2A;
+   margin: 0em 20em 0em 27em;
+   padding: 1em 1em 0em 1em;
+}
+
+.photo{
+   text-align: left;
+   float: left;
+}
+
+.box4{
+
+ margin: 50px;
+ 
+}
+
+.kakomi-te4 {
+
+ margin: 2em auto; 
+
+ padding: 1em 6em 1em 4em;
+
+ width: 90%; /*幅の調節*/
+
+ color: #724832; /* 文字色 */
+
+ background-color: #fff; /* 背景色 */
+
+ border: 4px solid #AB3B3A; /*線の太さ・色*/
+
+ border-radius: 3em .8em 3em .7em/.9em 2em .8em 3em;
+
+}
+
+</style>
+
+
+
+<div class="box5">
+
+<div class="kakomi-te5"><p class="photo"><a href="http://www.yasugi-kankou.com/index.php?view=5215"><img src="img/1084-kiyomizudera-001-2.jpg" alt="清水寺" width="400" heigh="300"></a></p><p class="object"><div class="block"><font size="6">清水寺</font></div>
+
+<br>587年に開かれた天台宗の古刹。十一面観音様をご本尊に厄払いの寺として慕われています。鬱蒼と茂る杉林を登ると瑞光山の山腹に清水寺はあり、5万坪余りの境内には、山陰唯一の三重塔など、県や国の重要文化財も数多く、荘厳な空気に包まれています。<br>
+
+<div class="sample-box-5">
+<a href="https://www.trivago.jp/?aDateRange%5Barr%5D=2018-09-17&aDateRange%5Bdep%5D=2018-09-18&aPriceRange%5Bfrom%5D=0&aPriceRange%5Bto%5D=0&iPathId=90222&aGeoCode%5Blat%5D=35.416187&aGeoCode%5Blng%5D=133.010605&iGeoDistanceItem=3473916&aSortingOrderBoosting%5B%5D=distance_poi&aCategoryRange=0%2C1%2C2%2C3%2C4%2C5&aOverallLiking=1%2C2%2C3%2C4%2C5&sOrderBy=relevance%20desc&bTopDealsOnly=false&iRoomType=7&cpt=347391602&iIncludeAll=0&iViewType=0&bIsSeoPage=false&bIsSitemap=false&" style="text-decoration:none">ホテル</a><br>
+<a href="https://www.tripadvisor.jp/RestaurantsNear-g1023585-d1373265-Kiyomizu_dera_Temple-Yasugi_Shimane_Prefecture_Chugoku.html"style="text-decoration:none" style="text-decoration:none">食事</a><br>
+<a href="https://www.tripadvisor.jp/AttractionsNear-g1023585-d1373265-Kiyomizu_dera_Temple-Yasugi_Shimane_Prefecture_Chugoku.html" style="text-decoration:none">観光</a><br>
+<a href="https://www.google.com/maps/place/%E7%91%9E%E5%85%89%E5%B1%B1+%E6%B8%85%E6%B0%B4%E5%AF%BA/@35.4022365,133.2797186,17z/data=!3m1!4b1!4m5!3m4!1s0x3556fbcf9a85e57f:0x731564fff4bd87f7!8m2!3d35.4022321!4d133.2819073" style="text-decoration:none">地図</a><br>
+<br />
+
+</p></div>
+</div>
+
+</div>
+
+<style>
+.sample-box-5{
+   background-color: #fbeefc;
+   border-left: 8px solid #6A4028;
+   color: #985F2A;
+   margin: 0em 20em 0em 27em;
+   padding: 1em 1em 0em 1em;
+}
+.photo{
+   text-align: left;
+   float: left;
+}
+
+.box5{
+
+ margin: 50px;
+ 
+}
+
+.kakomi-te5 {
+
+ margin: 2em auto; 
+
+ padding: 1em 6em 1em 4em;
+
+ width: 90%; /*幅の調節*/
+
+ color: #724832; /* 文字色 */
+
+ background-color: #fff; /* 背景色 */
+
+ border: 4px solid #AB3B3A; /*線の太さ・色*/
+
+ border-radius: 3em .8em 3em .7em/.9em 2em .8em 3em;
+
+}
+
+</style>
+
+<div class="memox huifont">
+
+<ol>
+
+<body link="#795548" alink="#C73E3A">
+
+<p class="waku">
+
+<li><a href="http://www.kankou-shimane.com/course" style="text-decoration:none">モデルコース</a></li>
+<li><a href="http://www.kankou-shimane.com/ja/tour" style="text-decoration:none">オプショナルツアー</a></li>
+<li><a href="http://www.kankou-shimane.com/reserve" style="text-decoration:none">旅の予約</a></li>
+<li><a href="http://www.kankou-shimane.com/food_bussan" style="text-decoration:none">人気のお土産</a></li>
+
+</p>
+
+
+<p class="gazou">
+
+<div class="relative">
+
+<a href="http://furusato.sanin.jp/p/area/matsue/1/"><img src="img/20131115.jpg" alt="宍道湖" width=""2050 height="300"></a>
+<p class="absolute">宍道湖</p>
+
+</div>
+
+
+</p>
+
+</ol>
+
+</body>
+
+
+
+
+</div>
+
+
+
+
+
+
+<style>
+
+.waku{
+  text-align: left;
+  float: left;
+}
+
+.gazou{
+  text-align: right;
+  float: right;
+}
+
+
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+    bottom: 40px;
+    color: #fff;
+    background: rgba(0,0,0,.6);
+    width: 100%;
+    max-width: 300px;
+    padding: 1em 0;
+}
+.absolute p {
+    margin: 0;
+    padding: 0 0.8em;
+    font-size: 150%;
+    text-align: center;
+}
+
+
+.memox{
+   position:relative;
+   background:#fffde7;
+   width:45%;
+   margin:2em auto;
+   padding:1em 0em 2em 5em;
+   transform: rotate(-2deg);
+   box-shadow:1px 1px 4px rgba(0,0,0,0.2);
+   color:#795548;
+}
+.memox::before{
+   content:'関連情報';
+   position:relative;
+   display:inline-block;
+   border-bottom:3px solid #795548;
+   border-radius: 0 0 40% 5% / 0 0 15% 20%;
+   padding:0 1em 0.1em 0.2em;
+   font-size:110%;
+   font-weight:bold;
+   transform: rotate(-5deg);
+}
+.memox::after{
+   content:'';
+   position:absolute;
+   left:50%;
+   top:-15px;
+   margin-left:-75px;
+   width:150px;
+   height:30px;
+   background:rgba(245,245,245,0.7);
+   box-shadow:1px 1px 4px rgba(0,0,0,0.2);
+   transform: rotate(-4deg);
+}
+.memox ol{
+   margin:1em 0.5em 0 2em;
+   padding:0 0 0 0;
+}
+.memox ol li{
+   margin-bottom:0.5em;
+}
+</style>
+
+
+
+</body>
+</html>
+
+
+
+
+
